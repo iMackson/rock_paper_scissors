@@ -1,6 +1,6 @@
 CFLAGS=-Wall -g
 
-all: game
+all: main
 
 clean:
-	rm -f game
+	rm -f main

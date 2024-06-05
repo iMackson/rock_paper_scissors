@@ -65,9 +65,7 @@ int main()
   // Make a random number less than 100:
   n = rand() % 100;
 
-  // Using simple probability 100 is
-  // roughly divided among stone,
-  // paper, and scissor
+  // 100 is roughly divided among rock, paper, and scissors
   if (n < 33) {
     // r denotes rock
     computer = 'r';
